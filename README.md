@@ -1,21 +1,29 @@
-# Terminal-Based To-Do List
+# Expense Tracker – Modern Finance App
 
-A simple Python terminal application to manage your daily tasks. This project allows you to **add, view, remove, and clear tasks** directly from the terminal.
+**Expense Tracker** is a sleek, dark-themed desktop application built with **Python** and **CustomTkinter** that helps you monitor your monthly income and expenses. It offers a simple interface to log transactions and provides an at-a-glance summary of your financial status, and surprise it's now Dark Green than what I usually make which is dark blue..ohh you don't care? never mind
+
+---
 
 ## Features
+- Modern dark UI with customizable color accents  
+- Add **Income** or **Expense** transactions  
+- Automatic monthly summaries with balance calculation  
+- Displays total income and total expenses for the current month  
+- Saves data locally in a JSON file (`tracker_data.json`)  
+- Lightweight and easy to use  
 
-- Add a task to your to-do list
-- View all tasks in the list
-- Remove a specific task by number
-- Clear all tasks
-- Exit the program
+---
 
-## How to Use
+## Technologies Used
+- Python  
+- Tkinter  
+- CustomTkinter  
+- JSON for data storage  
 
-1. Clone the repository or download `to-do-list.py`.
-2. Open a terminal and navigate to the folder containing `to-do-list.py`.
-3. Run the program:
+---
 
+## Installation
+1. Ensure Python is installed on your system.  
+2. Install **CustomTkinter**:
 ```bash
-python to-do-list.py
-****
+pip install customtkinter
